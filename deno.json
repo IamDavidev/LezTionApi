@@ -1,0 +1,5 @@
+{
+    "tasks": {
+        "run::server": " deno run  -A --allow-env --allow-net --watch  ./src/index.ts"
+    }
+}
