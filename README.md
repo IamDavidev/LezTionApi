@@ -1,4 +1,4 @@
-<img src="/static/LezTionApi.png" alt="leztion api" width="1080" /> 
+<img src="/static/LezTionApi.png" alt="leztion api" width="1080" />
 
 # 🚀 Project Structure 🚀
 
@@ -10,20 +10,20 @@ Application to organize your notes and daily tasks efficiently. With an intuitiv
 - [Pnpm](https://pnpm.io/installation) (v7.9.0+)
 - [Typescript](https://www.typescriptlang.org/download) (v4.9.0+)
 
-
 ## 🔌 `api` - contains the api code🔌
+
 [![Deno](https://img.shields.io/badge/Deno-fff?style=for-the-badge&logo=deno&logoColor=fff&labelColor=191919)]()
 [![TS](https://img.shields.io/badge/TypeScript-007acc?style=for-the-badge&logo=typescript&logoColor=007acc&labelColor=191919)]()
 
-This API implements:  
+This API implements:
 
-- DDD (Domain-drive design) 
+- DDD (Domain-drive design)
 - TDD (Test-drive development)
 - Repository pattern.
 - Dependency injection.
 - Object-value pattern.
 
-#### 📂  [Repository](https://github.com/IamDavidev/LezTionApi)
+#### 📂 [Repository](https://github.com/IamDavidev/LezTionApi)
 
 1. Clone the repo
 
@@ -43,14 +43,12 @@ deno task run::server
 deno task run::tst
 ```
 
-
 ## 💡 `app` - contains the frontend code 💡
 
 [![TS](https://img.shields.io/badge/TypeScript-007acc?style=for-the-badge&logo=typescript&logoColor=007acc&labelColor=191919)]()
 [![Svelte](https://img.shields.io/badge/svelte-cc3200?style=for-the-badge&logo=svelte&logoColor=cc3200&labelColor=191919)]()
 
-
-#### 📂  [Repository](https://github.com/IamDavidev/LezTionApp)
+#### 📂 [Repository](https://github.com/IamDavidev/LezTionApp)
 
 ### Clone the repo
 
@@ -78,13 +76,12 @@ deno task run::tst
     pnpm dev
 ```
 
-
 ## 🧾 `docs` - contains the documentation 🧾
 
 [![Svelte](https://img.shields.io/badge/svelte-cc3200?style=for-the-badge&logo=svelte&logoColor=cc3200&labelColor=191919)]()
 [![Astro](https://img.shields.io/badge/Astro-ff5d01?style=for-the-badge&logo=astro&logoColor=ff5d0100&labelColor=191919)]()
 
-📂  [Repository](https://github.com/IamDavidev/LezTionWeb)
+📂 [Repository](https://github.com/IamDavidev/LezTionWeb)
 
 1. Clone the project
 
@@ -103,7 +100,6 @@ pnpm install
 ```bash
 pnpm run::dev
 ```
-
 
 <div align="center">
  This project is open source all code is public
