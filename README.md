@@ -1,5 +1,7 @@
 <img src="/static/LezTionApi.png" alt="leztion api" width="1080" />
 
+- [backlog](https://github.com/IamDavidev/LezTionApi/blob/main/stories/backlog.md)
+
 # 🚀 Project Structure 🚀
 
 Application to organize your notes and daily tasks efficiently. With an intuitive and easy-to-use interface, this application will help you keep your notes and tasks organized and prioritized so you can achieve your goals and be more productive.
