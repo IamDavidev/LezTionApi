@@ -14,16 +14,16 @@ export async function $bootstrap(
       logger.info(`Server is running on port ${port}`);
     });
 
+    app.addEventListener('error', (err) => {
+      logger.error('Server error', err);
+      abortController.abort();
+    });
+
     await app.listen({
       port,
       signal: abortController.signal,
     });
   } catch (err) {
     logger.info('Server is shutting down', err);
-
-    app.addEventListener('error', (err) => {
-      logger.error('Server error', err);
-      abortController.abort();
-    });
   }
 }
